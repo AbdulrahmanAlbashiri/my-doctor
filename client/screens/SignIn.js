@@ -23,7 +23,7 @@ export default function SignInScreen(props){
     const signInValidationSchema = yup.object().shape({
         email:yup
         .string()
-        .email("يجب عليك ادخال بريد الكتوني صحيح")
+        .email("يجب عليك ادخال بريد الكتروني صحيح")
         .required('البريد الالكتروني مطلوب'),
         password:yup
         .string()

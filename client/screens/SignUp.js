@@ -55,7 +55,8 @@ export default function SignUpScreen(props) {
         latitude:location ? location.latitude : null,
         longitude:location ? location.longitude : null
         }
-      }    
+      }   
+      console.log(process.env.API_URL); 
 
       try {
         const response = await axios.post(SIGNUP_URL , body)

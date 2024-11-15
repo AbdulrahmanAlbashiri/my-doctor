@@ -39,7 +39,7 @@ export default function HomeScreen(props) {
       :
       <>
       <Button title="تسجيل الدخول " onPress={() => navigation.navigate('SignIn')}/>
-      <Button type='clear' title="تسجيل مستخدم جديد" onPress={() => navigation.navigate('SignUp')}>
+      <Button  type='clear' title="تسجيل مستخدم جديد" onPress={() => navigation.navigate('SignUp')}>
         <Text style={styles.labelButton}>انشاء حساب جديد</Text>
       </Button>
       </>
