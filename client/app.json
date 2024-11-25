@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "client",
-    "slug": "client",
+    "name": "my-doctor",
+    "slug": "my-doctor",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,14 +22,14 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.abdulrahmanm.client"
+      "package": "com.abdulrahmanm.mydoctor"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "33a0d37f-f04e-4ada-9cd9-950367bda5a1"
+        "projectId": "842f0e7b-9fc8-4bdd-b881-edc7b4f13e93"
       }
     }
   }
