@@ -1,5 +1,5 @@
 import React from 'react';
-import MapView , {Marker } from 'react-native-maps';
+import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps';
 import { transformName } from '../config/helpers';
 import styles from '../styles/profileStyles';
 import { View , Platform } from  'react-native';
@@ -47,7 +47,7 @@ function DoctorsDetails ({selectedDoctor , closeModal}) {
                     <View style={styles.mapContainer}>
                         <MapView
                             style={styles.map}
-                            provider='google'
+                            provider={PROVIDER_GOOGLE}
                             initialRegion={{
                             latitude: selectedDoctor.latitude,
                             longitude: selectedDoctor.longitude,
