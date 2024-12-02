@@ -56,7 +56,7 @@ function UpdateProfileScreen( props) {
             specialization : values.specialization,
             address : values.address,
             phon :values.phon,
-            workingHorse : values.workingHorse,
+            workingHours : values.workingHours,
             location : {
                 latitude : values.latitude || null ,
                 longitude : values.longitude || null

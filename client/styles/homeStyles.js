@@ -32,5 +32,8 @@ export default StyleSheet.create({
         fontSize: 16,
         textAlign: 'center',
         color: '#fff',
+      }, 
+      clearButtonTitle: { 
+        color:'#509af3', // قم بتغيير اللون هنا إلى اللون الذي تريده 
       },
 })

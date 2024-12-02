@@ -22,6 +22,11 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
+      "config":{
+      "googleMaps":{
+        "apiKey":"AIzaSyBtibJhFlOF7JHMVHrJM_hlsfILt6CtZ1g"
+      }
+    },
       "package": "com.abdulrahmanm.mydoctor"
     },
     "web": {

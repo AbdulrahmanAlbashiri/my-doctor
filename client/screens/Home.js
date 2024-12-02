@@ -32,14 +32,14 @@ export default function HomeScreen(props) {
       {token ? 
       <>
       <Button title="استعراض قائمة الأطباء" onPress={() => navigation.navigate('Doctors')}/>
-      <Button type='clear' title="الصفحة الشخصية" onPress={() => navigation.navigate('Profile')}>
+      <Button type='clear' title="الصفحة الشخصية" titleStyle={styles.clearButtonTitle}  onPress={() => navigation.navigate('Profile')}>
         <Text style={styles.labelButton}>استعراض الملف الشخصي</Text>
       </Button>
       </>
       :
       <>
       <Button title="تسجيل الدخول " onPress={() => navigation.navigate('SignIn')}/>
-      <Button  type='clear' title="تسجيل مستخدم جديد" onPress={() => navigation.navigate('SignUp')}>
+      <Button   type='clear' title="تسجيل مستخدم جديد" titleStyle={styles.clearButtonTitle} onPress={() => navigation.navigate('SignUp')}>
         <Text style={styles.labelButton}>انشاء حساب جديد</Text>
       </Button>
       </>
@@ -47,6 +47,11 @@ export default function HomeScreen(props) {
      </View>
 
     </ImageBackground>
+
   );
+  
 }
+
+
+
 
